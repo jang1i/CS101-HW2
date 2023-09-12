@@ -1,0 +1,29 @@
+# Problem 1
+def evaluate(x, y, z):
+    # Fill in the body of this function and modify the return statement below as needed.
+  return 5 + ((y * z + x) / (3 / (4 * x + 1))) - 3 
+x=a
+y=b
+c=z
+print (evaluate (a, b, c))
+
+
+# Problem 2
+def vacation_cost(adults, children, days):
+    # Fill in the body of this function and modify the return statement below as needed.
+    return 0
+
+
+# Problem 3
+def part_info(h, w, d, n):
+    # Fill in the body of this function and modify the return statement below as needed.
+    return 0, 0
+
+
+# Problem 4
+def euro_to_usd(exchange_rate, cent1, cent2, cent5, cent10, cent20):
+    # Fill in the body of this function and modify the return statement below as needed.
+    return 0
+
+
+

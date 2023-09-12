@@ -1,23 +1,26 @@
 # Problem 1
 def evaluate(x, y, z):
     # Fill in the body of this function and modify the return statement below as needed.
-  return 5 + ((y * z + x) / (3 / (4 * x + 1))) - 3 
-x=a
-y=b
-c=z
-print (evaluate (a, b, c))
+    result = 5 + ((y * z + x) / (3 / (4 * x + 1))) - 3
+    return result
 
+# i thought i was supposed to do 'return evaluate' not 'return result' but even then i thought i was also supposed to do 'return evaluate (x, y, z)'
 
 # Problem 2
 def vacation_cost(adults, children, days):
     # Fill in the body of this function and modify the return statement below as needed.
-    return 0
+    cost = adults * 100 * days + children * 75 * (days - 2) + (15 * (adults + children)) 
+    return cost
 
+# same here, typing 'return vacation_cost' is not working
 
 # Problem 3
 def part_info(h, w, d, n):
     # Fill in the body of this function and modify the return statement below as needed.
-    return 0, 0
+    area = (d * n * 4) + (d * n * 8) + (((h + n) * (w + n)) - 4 * w **2) 
+    volume = (w * d * h) - 4 * (n * n * d)
+    return area, volume
+# this one just didnt work at all 
 
 
 # Problem 4
@@ -25,5 +28,4 @@ def euro_to_usd(exchange_rate, cent1, cent2, cent5, cent10, cent20):
     # Fill in the body of this function and modify the return statement below as needed.
     return 0
 
-
-
+# i dont even know where to start with this one
